@@ -1,0 +1,94 @@
+/* .my-orders{
+    margin-bottom: 100px;
+}
+.my-orders h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.my-orders .order-img{
+    width: 100px;
+}
+
+.my-orders .row{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom:1px solid #ddd;
+
+} */
+
+
+
+
+/* Basic reset and styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  /* Styling for the order list page */
+  .my-orders {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .orders-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .header-row,
+  .order-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .order-img {
+    max-width: 60px;
+  }
+  
+  .order-status {
+    color: #007bff;
+  }
+  
+  .cancel-button {
+    background-color: #ff5757;
+    color: #fff;
+  }
+  
+  /* Animation for the cancel button */
+  .cancel-button:hover {
+    background-color: #d63131;
+    transform: translateY(-2px);
+    transition: transform 0.2s ease-in-out;
+  }
+  .cancel-button {
+    background-color: #ff5757;
+    color: #fff;
+    border: none;
+    padding: 9px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .cancel-button:hover {
+    background-color: #d63131;
+    transform: translateY(-2px);
+  }

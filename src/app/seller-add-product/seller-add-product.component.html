@@ -1,0 +1,34 @@
+
+<div class="body">
+    <div class="container">
+      <h2 class="text-center">Add Product</h2>
+      <p class="message-p text-center">{{ addProductMessage }}</p>
+      <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="name">Product Name:</label>
+          <input type="text" id="name" name="name" formControlName="name">
+        </div>
+        <div class="form-group">
+          <label for="price">Price:</label>
+          <input type="text" id="price" name="price" formControlName="price">
+        </div>
+        <div class="form-group">
+          <label for="description">Description:</label>
+          <input type="text" id="description" name="description" formControlName="description">
+        </div>
+        <div class="form-group">
+          <label for="category">Category:</label>
+          <input type="text" id="category" name="category" formControlName="category">
+        </div>
+        <div class="form-group">
+          <label for="stock">color:</label>
+          <input type="text" id="color" name="color" formControlName="color">
+        </div>
+        <div class="form-group">
+          <label for="image">Image URL:</label>
+          <input type="text" id="image" name="image" formControlName="image">
+        </div>
+        <button type="submit">Add Product</button>
+      </form>
+    </div>
+ </div>

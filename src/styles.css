@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'ngx-toastr/toastr';
+.message-p{
+    color: green;
+    text-align: center;
+  }
+  
+.carousel-caption {
+  background-color: #0000007d;
+  border-radius: 10px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: black;
+  border-radius: 5px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
